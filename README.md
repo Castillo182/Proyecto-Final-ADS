@@ -1,11 +1,11 @@
 # Proyecto-Final-ADS
 Ver+ - Plataforma de Monitoreo Visual Infantil
 
-Descripción
+### Descripción
 Ver+ es una plataforma web diseñada para apoyar el monitoreo visual infantil en niños de 0 a 3 años de edad.
 El sistema permite a tutores, especialistas y administradores colaborar en la detección temprana de posibles alteraciones visuales mediante evaluaciones periódicas, seguimiento clínico, recomendaciones médicas y gestión de citas.
 
-Objetivo
+### Objetivo
 Facilitar el seguimiento del desarrollo visual infantil mediante una plataforma centralizada que permita:
 
 - Registrar perfiles infantiles.
@@ -16,7 +16,7 @@ Facilitar el seguimiento del desarrollo visual infantil mediante una plataforma 
 - Emitir reportes de seguimiento.
 - Mantener comunicación entre tutores y especialistas.
 
-Tecnologías utilizadas
+### Tecnologías utilizadas
 
 Frontend
 - HTML5
@@ -30,12 +30,12 @@ Backend
   - Row Level Security (RLS)
   - Functions (RPC)
 
-Librerías
+### Librerías
 - Lucide Icons
 - Supabase JS
 
 
-Roles del sistema
+### Roles del sistema
 
 Tutor
 
@@ -68,7 +68,7 @@ Puede:
 - Asignar especialistas a pacientes.
 - Supervisar el sistema.
 
-Funcionalidades implementadas
+### Funcionalidades implementadas
 
 Tutores
 - Dashboard de seguimiento.
@@ -96,41 +96,37 @@ Administrador
 - Asignación de pacientes.
 - Control de solicitudes.
 
-Estructura del proyecto
+### Estructura del proyecto
 
+```text
 Ver+
-│
 ├── assets/
 │   ├── img/
-│
-├── components/
-│   ├── navbar.html
-│   ├── footer.html
-│   ├── paciente_sidebar.html
-│   ├── doctor_sidebar.html
-│   └── admin_sidebar.html
-│
+│   └── components/
+│       ├── navbar.html
+│       ├── footer.html
+│       ├── paciente_sidebar.html
+│       └── doctor_sidebar.html
+│       └── admin_sidebar.html
 ├── css/
 │   ├── base.css
 │   ├── layout.css
 │   ├── components.css
 │   ├── dashboard.css
 │   └── home.css
-│
 ├── js/
 │   ├── supabase.js
 │   ├── cargarComponentes.js
 │   ├── cargarPacienteSidebar.js
 │   ├── cargarDoctorSidebar.js
-│   ├── cargarAdminSidebar.js
-│   └── pages/
-│
-├── index.html
-├── login.html
-├── registro.html
-└── ...
+│   └── cargarAdminSidebar.js
+└── pages/
+    ├── index.html
+    ├── login.html
+    └── registro.html
+```
 
-Configuración del proyecto
+### Configuración del proyecto
 
 1. Clonar repositorio
 git clone URL_DEL_REPOSITORIO
@@ -181,7 +177,7 @@ createClient(
 
 No modificar estos datos sin autorización.
 
-Base de datos
+### Base de datos
 
 El sistema utiliza PostgreSQL mediante Supabase.
 
@@ -218,7 +214,7 @@ Incluye recursos educativos sobre:
 - Seguimiento clínico.
 - Recomendaciones para padres.
 
-# Credenciales de prueba
+### Credenciales de prueba
 Para facilitar las pruebas del sistema, se incluyen las siguientes cuentas de acceso:
 
 Administrador
@@ -268,7 +264,7 @@ Nota: Estas cuentas fueron creadas únicamente para fines de demostración y eva
 
 Las fuentes utilizadas corresponden a organizaciones médicas y científicas reconocidas.
 
-Integrantes
+### Integrantes
 - ACOSTA MANCILLA CESAR ARMANDO
 - LÓPEZ RAMOS MARCOS ISAID 
 - MENDOZA CASTILLO ALEJANDRA
