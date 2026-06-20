@@ -1,4 +1,4 @@
-# Proyecto-Final-ADS
+# Proyecto-VER +
 Ver+ - Plataforma de Monitoreo Visual Infantil
 
 ### Descripción
