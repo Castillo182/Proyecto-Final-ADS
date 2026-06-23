@@ -269,6 +269,5 @@ Las fuentes utilizadas corresponden a organizaciones médicas y científicas rec
 - LÓPEZ RAMOS MARCOS ISAID 
 - MENDOZA CASTILLO ALEJANDRA
 
-Licencia
 Proyecto académico desarrollado para fines educativos.
-© 2026 Ver+
+
